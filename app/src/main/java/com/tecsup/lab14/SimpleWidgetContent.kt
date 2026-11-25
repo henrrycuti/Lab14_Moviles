@@ -42,6 +42,12 @@ class SimpleWidgetContent : GlanceAppWidget() {
                     onClick = actionStartActivity<MainActivity>()
                 )
             }
+            Row(horizontalAlignment = Alignment.CenterHorizontally) {
+                Button(
+                    text = "Otra vista",
+                    onClick = actionStartActivity<SegundaActivity>()
+                )
+            }
         }
     }
 }
